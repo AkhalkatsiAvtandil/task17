@@ -26,6 +26,21 @@ for (let i = 0; i < numbers.lenght; i++);
 if (numbers[i] % 2 === 0) {
   console.log(numbers[i]);
 }
+if (numbers[1] % 2 === 0) {
+  console.log(numbers[1]);
+}
+if (numbers[2] % 2 === 0) {
+  console.log(numbers[2]);
+}
+if (numbers[6] % 2 === 0) {
+  console.log(numbers[6]);
+}
+if (numbers[0] % 2 === 0) {
+  console.log(numbers[0]);
+}
+if (numbers[5] % 2 === 0) {
+  console.log(numbers[5]);
+}
 // } else if (numbers[i] % 2 > 0) {
 //   console.log(numbers[i]);
 // }
