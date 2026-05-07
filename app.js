@@ -10,3 +10,9 @@ while (i < 15) {
   console.log("hello from for loop", i);
   i++;
 }
+//  task 3
+let z = 0;
+do {
+  console.log("hello from do while loop", z);
+  z++;
+} while (z < 20);
