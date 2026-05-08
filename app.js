@@ -20,8 +20,15 @@ do {
 
 const numbers = [45, 56, 78, 89, 101, 234, 333, 457];
 // console.log(numbers);
-
-for (let i = 0; i < numbers.lenght; i++);
+for (let i = 0; i < numbers.length; i++) {
+  const element = numbers[i];
+}
+if (numbers[i] % 2 === 0) {
+  const element = numbers[i];
+}
+// for (let i = 0; i < numbers.lenght; i++) {
+//   console.log(numbers[i]);
+// }
 
 if (numbers[i] % 2 === 0) {
   console.log(numbers[i]);
@@ -40,7 +47,46 @@ if (numbers[0] % 2 === 0) {
 }
 if (numbers[5] % 2 === 0) {
   console.log(numbers[5]);
+} else if (numbers[i] % 2 > 0) {
+  console.log(numbers[i]);
 }
-// } else if (numbers[i] % 2 > 0) {
-//   console.log(numbers[i]);
-// }
+
+// // task5
+let currentDay = 0;
+const newdate = "mo";
+
+switch (currentDay) {
+  case "su":
+    currentDay = 0;
+    console.log(" today is ", currentDay);
+    break;
+  case "mo":
+    currentDay = 1;
+    console.log(" today is ", currentDay);
+    break;
+  case "tu":
+    currentDay = 2;
+    console.log(" today is ", currentDay);
+    break;
+  case "we":
+    currentDay = 3;
+    console.log(" today is ", currentDay);
+    break;
+  case "th":
+    currentDay = 4;
+    console.log(" today is ", currentDay);
+    break;
+  case "fr":
+    currentDay = 5;
+    console.log(" today is ", currentDay);
+    break;
+  case "sa":
+    currentDay = 6;
+    console.log(" today is ", currentDay);
+    break;
+
+  default:
+    currentDay = 1;
+    console.log(" today is ", currentDay);
+    break;
+}
