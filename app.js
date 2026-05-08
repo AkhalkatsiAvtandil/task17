@@ -21,35 +21,37 @@ do {
 const numbers = [45, 56, 78, 89, 101, 234, 333, 457];
 // console.log(numbers);
 for (let i = 0; i < numbers.length; i++) {
-  const element = numbers[i];
-}
-if (numbers[i] % 2 === 0) {
-  const element = numbers[i];
+  //   const element = numbers[i];
+
+  if (numbers[i] % 2 < 1) {
+    console.log(numbers[i]);
+  }
+  //   console.log(numbers[i]);
 }
 // for (let i = 0; i < numbers.lenght; i++) {
 //   console.log(numbers[i]);
 // }
 
-if (numbers[i] % 2 === 0) {
-  console.log(numbers[i]);
-}
-if (numbers[1] % 2 === 0) {
-  console.log(numbers[1]);
-}
-if (numbers[2] % 2 === 0) {
-  console.log(numbers[2]);
-}
-if (numbers[6] % 2 === 0) {
-  console.log(numbers[6]);
-}
-if (numbers[0] % 2 === 0) {
-  console.log(numbers[0]);
-}
-if (numbers[5] % 2 === 0) {
-  console.log(numbers[5]);
-} else if (numbers[i] % 2 > 0) {
-  console.log(numbers[i]);
-}
+// if (numbers[i] % 2 === 0) {
+//   console.log(numbers[i]);
+// }
+// if (numbers[1] % 2 === 0) {
+//   console.log(numbers[1]);
+// }
+// if (numbers[2] % 2 === 0) {
+//   console.log(numbers[2]);
+// }
+// if (numbers[6] % 2 === 0) {
+//   console.log(numbers[6]);
+// }
+// if (numbers[0] % 2 === 0) {
+//   console.log(numbers[0]);
+// }
+// if (numbers[5] % 2 === 0) {
+//   console.log(numbers[5]);
+// } else if (numbers[i] % 2 > 0) {
+//   console.log(numbers[i]);
+// }
 
 // // task5
 let currentDay = 0;
@@ -90,3 +92,9 @@ switch (currentDay) {
     console.log(" today is ", currentDay);
     break;
 }
+
+// task6
+
+// for (let i = 0; i < characters.length; i++) {
+//   const element = characters[i].;
+// }
