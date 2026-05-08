@@ -195,3 +195,13 @@ const characters = [
     image: "https://ik.imagekit.io/hpapi/luna.jpg",
   },
 ];
+
+// task6
+// const name = yearOfBirth + hogwartsStudent;
+// yearOfBirth >= 1980 && hogwartsStudent === true;
+
+for (let i = 0; i < characters.length; i++) {
+  if (characters[i].yearOfBirth >= 1980) {
+    console.log(characters[i].name);
+  }
+}

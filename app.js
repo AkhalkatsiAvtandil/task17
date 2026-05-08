@@ -92,9 +92,3 @@ switch (currentDay) {
     console.log(" today is ", currentDay);
     break;
 }
-
-// task6
-
-// for (let i = 0; i < characters.length; i++) {
-//   const element = characters[i].;
-// }
